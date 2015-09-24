@@ -1,8 +1,8 @@
 {
-  "name": "todomvc-flux",
+  "name": "todomvc-flux-es6/7",
   "version": "0.0.3",
-  "description": "Example Flux architecture.",
-  "repository": "https://github.com/facebook/flux",
+  "description": "Example Flux architecture by es6/7.",
+  "repository": "https://github.com/noodleswww/flux-todoMVC-es6",
   "main": "js/app.js",
   "browserify": {
     "transform": [
