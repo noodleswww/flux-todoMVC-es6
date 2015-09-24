@@ -3,6 +3,7 @@
 > 对facebook Flux es5示例 使用es6方式实现
 
 现实效果为：
+
 <img src="screenshot.png" style="width: 100%;" />
 
 ## 观看原版es5 Flux TodoMVC
