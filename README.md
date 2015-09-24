@@ -11,7 +11,26 @@
 
 [Flux](http://facebook.github.io/flux) 和 [React](http://facebook.github.io/react) 为案例使用资源参考.
 
-# 一下为引用官方说明
+## Running
+
+增加了grunt管理工具，你必须安装全局grunt-cli，
+
+    npm install grunt-cli -g
+    
+    npm install
+
+安装所有依赖模块
+
+仅保留，原版test和build命令，初始构建和监控等采用grunt插件挂你
+
+    grunt browserify
+    watch
+    build
+    default
+
+依赖模块编译同样使用`envify`
+
+# 以下为引用官方说明
 
 ## Overview
 
@@ -133,28 +152,6 @@ The bundle.js file is automatically genenerated by the build process, explained 
 
 * 说明中文翻译
 * 引入webpack
-
-## Running
-
-You must have [npm](https://www.npmjs.org/) installed on your computer.
-From the root project directory run these commands from the command line:
-
-    npm install grunt-cli -g
-    
-    npm install
-
-This will install all dependencies.
-
-To build the project, first run this command:
-
-    grunt browserify
-    watch
-    build
-    default
-
-This will perform an initial build and start a watcher process that will update bundle.js with any changes you wish to make.  This watcher is based on [Browserify](http://browserify.org/) and [Watchify](https://github.com/substack/watchify), and it transforms React's JSX syntax into standard JavaScript with [Reactify](https://github.com/andreypopp/reactify).
-
-To run the app, spin up an HTTP server and visit http://localhost/.../todomvc-flux/.  Or simply open the index.html file in a browser.
 
 
 ## Credit
