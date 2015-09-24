@@ -21,7 +21,7 @@
 
 安装所有依赖模块
 
-仅保留，原版test和build命令，初始构建和监控等采用grunt插件挂你
+仅保留，原版test和build命令，初始构建和监控等采用grunt插件管理
 
     grunt browserify
     watch
